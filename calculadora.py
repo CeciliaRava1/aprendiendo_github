@@ -29,6 +29,10 @@ def calculadora():
 
     if operacion == '1':
         print(f'Resultado: {num1} + {num2} = {suma(num1, num2)}')
+    elif operacion == '2':
+        print(f'Resultado: {num1} - {num2} = {num1 - num2}')
+    elif operacion == '3':
+        print(f'Resultado: {num1} * {num2} = {num1 * num2}')
     elif operacion == '4':
         resultado = division(num1, num2)
         if resultado == "Error: División por cero":
